@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Megaphone, Plus, XCircle, Users, TrendingUp, Send, MessageSquare, Instagram, Star } from 'lucide-react';
+import { Megaphone, Plus, XCircle, Users, TrendingUp, Send, MessageSquare, Camera, Star } from 'lucide-react';
 
 const campanhas = [
   { id:1, nome:'Promoção Dia das Mães', canal:'WhatsApp', enviados:48, abertos:35, cliques:12, conversoes:5, status:'ativo', data:'10/05/2026' },
@@ -10,7 +10,7 @@ const campanhas = [
 
 const CANAL_ICON = {
   WhatsApp: MessageSquare,
-  Instagram: Instagram,
+  Instagram: Camera,
   Email: Send,
 };
 
