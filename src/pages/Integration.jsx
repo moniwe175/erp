@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Settings, MessageSquare, Instagram, Link2, CheckCircle, XCircle, RefreshCw, Zap } from 'lucide-react';
+import { Settings, MessageSquare, Camera, Link2, CheckCircle, XCircle, RefreshCw, Zap } from 'lucide-react';
 
 const integracoes = [
   {
@@ -16,7 +16,7 @@ const integracoes = [
     id: 2,
     nome: 'Instagram',
     desc: 'Integração com Instagram para publicação de antes/depois, stories de promoções e gestão de DMs de novos leads.',
-    icon: Instagram,
+    icon: Camera,
     cor: '#E1306C',
     status: 'desconectado',
     ultimoSync: '-',
